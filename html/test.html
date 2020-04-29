@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Paper</title>
+        <script>
+            
+            function Submit(){
+                var rates = document.querySelector('input[name="rate"]:checked').value;
+            var rates1 = document.querySelector('input[name="rate1"]:checked').value;
+            var rates2 = document.querySelector('input[name="rate2"]:checked').value;
+                console.log('===',rates,rates1,rates2)
+          document.getElementsByTagName('p');
+        
+        function showresult(){
+        const resultsContainer = document.getElementById('results');
+    }
+}
+        </script>
+    </head>
+<body>
+        <input type="color" id="name" name="name">
+
+<h1>Question Paper</h1>
+<p>Q1. Please select capital of India:</p>
+<div id="rates">
+    <input type="radio" id="r1" name="rate" value="Fixed Rate"> Fixed Rate
+    <input type="radio" id="r2" name="rate" value="Variable Rate"> Variable Rate
+    <input type="radio" id="r3" name="rate" value="Multi Rate" checked="checked"> Multi Rate  
+  </div>
+
+  <br>  
+
+  <p>Q2. Select India Independednce Day:</p>
+  <div id="rates1">
+    <input type="radio" id="r1" name="rate1" value="Fixed Rate1"> Fixed Rate1
+    <input type="radio" id="r2" name="rate1" value="Variable Rate1"> Variable Rate1
+    <input type="radio" id="r3" name="rate1" value="Multi Rate1" checked="checked"> Multi Rate1  
+  </div>
+
+<br>
+
+<p>Q3. Select India's largest city by population:</p>
+<div id="rates2">
+    <input type="radio" id="r1" name="rate2" value="Fixed Rate2"> Fixed Rate2
+    <input type="radio" id="r2" name="rate2" value="Variable Rate2"> Variable Rate2
+    <input type="radio" id="r3" name="rate2" value="Multi Rate2" checked="checked"> Multi Rate2 
+<br>
+<br>
+<button type="button" onclick="Submit()">Submit</button><br>
+<br>
+</div>Results:</div>
+
+
+        </body>
+
+
+</html>

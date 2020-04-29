@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculator</title>
+        <script>
+            function calculator(){
+          var  a=document.getElementById('first').value;
+          var  b=document.getElementById('second').value;
+          var  c=document.getElementById('operation').value;
+console.log(c);
+var res=0;
+        var c;
+        if (c=='+'){
+            res=parseInt(a)+parseInt(b);
+        }
+        else if(c== '-'){
+         res= (a-b)
+        }
+        else if(c== '*'){
+         res= (a*b);
+        }
+        else if(c== '/'){
+         res= (a/b);
+        }
+        else {
+            console.log('Invalid operation');
+        }
+        document.getElementById('Ans1').value=res;
+
+        //document.getElementById('Ans2').value=b;
+    
+    
+    }
+        </script>
+    </head>
+<body>
+    value of a: <input id = 'first'>
+    value of b: <input id= 'second'></br></br>
+    <label for="operation">Choose a operation:</label>
+<select id="operation">
+  <option value="+">Sum</option>
+  <option value="-">Substract</option>
+  <option value="*">Multiply</option>
+  <option value="/">Divide</option>
+</select>
+    <button onclick = 'calculator()'>Click for operation</button> </br></br>
+   Result: <input id ="Ans1"</br></br></br>
+</br> 
+
+ </body>
+</html>
